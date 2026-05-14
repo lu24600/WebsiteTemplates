@@ -1,0 +1,41 @@
+.page-container{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+.content{
+    display: flex;
+
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display:flex;
+}
+
+.logodiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    padding-left: 1500px;
+    padding-top: 15px;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+}

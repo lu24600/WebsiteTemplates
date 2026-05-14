@@ -1,0 +1,11 @@
+.page-container{
+    width: 100%;
+    background-color: black;
+}
+.content h1{
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}

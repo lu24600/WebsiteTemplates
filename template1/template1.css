@@ -39,3 +39,31 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: none;
 }
+.heroimage{
+   background-image: url("imgaes/R.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.herotext{
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 60%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    height: 150px;
+}

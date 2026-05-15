@@ -5,7 +5,85 @@
 .content h1{
     color: white;
 }
+.content img{
+    width: 100px;
+    height: 100px;
+}
 .content{
     display: flex;
     flex-direction: row;
+    align-items: left;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    padding-left: 1500px;
+    padding-top: 15px;
+    position: sticky;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+
+@keyframes myAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+nav ul{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+
+}
+.heroimg{
+   background-image: url("imgaes/OIP.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.herotext{
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 60%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
 }

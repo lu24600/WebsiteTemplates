@@ -1,20 +1,33 @@
 .page-container1{
     width: 100%;
-    margin: auto;
     height: 1400px;
 }
 header{
-    background-color:#6c18e4;
+    background-color:rgb(23, 9, 34);
     color: #fadc3f;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+}
+.logodiv{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.logodiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
 }
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: right;
-    background-color: #6c18e4;
-    padding-left: 1500px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(23, 9, 34);
     padding-top: 15px;
 
 }
@@ -26,56 +39,94 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    text-decoration: underline #fadc3f;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(23, 9, 34);
+    padding: 5px;
+    transition: all 0.67s ease;
+    text-shadow: 3px 3px 5px #fadc3f;
 }
 
 footer{
-    background-color:#6c18e4;
+    background-color:rgb(23, 9, 34);
     color: #fadc3f;
     text-align: center;
     height: 50px;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 form{
-    margin: 20px;
+    margin: 5px;
     border: 10px solid #fadc3f;
     border-radius: 15px;
-    background-color: #6c18e4 ;
-    padding: 20px; 
-    row-gap: 20px;
+    background-color:rgb(23, 9, 34);
     color: #fadc3f;
+}
+label{
+    font-size: 20px;
 }
 
 .buttons2 a{
     display: inline-block;
     padding: 10px 20px;
     background-color: #fadc3f;
-    color: #6c18e4;
+    color: rgb(54, 0, 54);
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .buttons2 a:hover{
-    background-color: #6c18e4;
+    background-color: rgb(23, 9, 34);
+    color: #fadc3f;
+    border: 2px solid #fadc3f;
+    height: 40px;
+    width: 100px;
+    vector-effect: non-scaling-stroke;
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.buttons2 a:hover{
+    background-color: rgb(23, 9, 34);
     color: #fadc3f;
     border: 2px solid #fadc3f;
 }
 
 .tutorials{
-    background-color: #6c18e4;
+    background-color: rgb(23, 9, 34);
     color: #fadc3f;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
     border: 10px solid #fadc3f;
     border-radius: 15px;
 }
 .classs{
-    background-color: #6c18e4;
+    background-color: rgb(23, 9, 34);
     color: #fadc3f;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
     border: 10px solid #fadc3f;
     border-radius: 15px;
+}
+.maincontent{
+    background-color: rgb(23, 9, 34);
+    color: #fadc3f;
+    border: 10px solid #fadc3f;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.tutorials a{
+    color: #fadc3f;
+    text-decoration: none;
+}
+.tutorials a:hover{
+    text-decoration: emphasis #fadc3f;
+}
+.classs a{
+    color: #fadc3f;
+    text-decoration: none;
+}
+.classs a:hover{
+    text-decoration: emphasis #fadc3f;
 }

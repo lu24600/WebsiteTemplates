@@ -1,6 +1,6 @@
 .page-container1{
-    width: 100%;
-    height: 1400px;
+    width: 1400px;
+    background-color: black;
 }
 header{
     background-color:rgb(23, 9, 34);
@@ -9,6 +9,7 @@ header{
     flex-direction: column;
     text-align: center;
 }
+
 .logodiv{
     display: flex;
     align-items: left;
@@ -29,7 +30,8 @@ nav ul{
     justify-content: space-evenly;
     background-color: rgb(23, 9, 34);
     padding-top: 15px;
-
+    border: 5px;
+    border-radius: 5px;
 }
 nav ul li{
     margin: 0 10px;
@@ -64,6 +66,9 @@ form{
 }
 label{
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(23, 9, 34);
+    
 }
 
 .buttons2 a{
@@ -91,17 +96,10 @@ label{
     background-color: rgb(23, 9, 34);
     color: #fadc3f;
     border: 2px solid #fadc3f;
+    border-radius: 3px;
 }
 
 .tutorials{
-    background-color: rgb(23, 9, 34);
-    color: #fadc3f;
-    padding: 20px;
-    margin: 5px;
-    border: 10px solid #fadc3f;
-    border-radius: 15px;
-}
-.classs{
     background-color: rgb(23, 9, 34);
     color: #fadc3f;
     padding: 20px;
@@ -123,10 +121,14 @@ label{
 .tutorials a:hover{
     text-decoration: emphasis #fadc3f;
 }
-.classs a{
-    color: #fadc3f;
+.classs{
+    text-align: center;
     text-decoration: none;
-}
-.classs a:hover{
-    text-decoration: emphasis #fadc3f;
+    border: 5px;
+    border-radius: 10px;
+    gap: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 10px;
+    display: flex;
+    background-color: black;
 }
